@@ -1,42 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  color: rgba(0, 0, 0, 0.493);
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.allQuotes{
+  border:  #92929211;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 600px;
+  font-size: 15px;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.author{
+  font-weight: 500;
+  font-size: 12px;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+h1 {
+  font-family: 'Bagel Fat One', cursive;
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: rgba(172, 255, 47, 0.658);
+  background: #92929211;
+  border-radius: 5px;
+  padding: 10px;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tdl{
+  background: #92929211;;
+  border-radius: 5px;
+  padding: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.btn{
+  border-radius: 8px;
+  font-weight: 700;
+  color: white;
+  background-color: rgba(172, 255, 47, 0.658);
+  border: solid 2px rgba(172, 255, 47, 0.658);
+  font-size: 16px;
+  margin: 0 10px;
+  padding: 2px 5px;
 }
-
-.card {
-  padding: 2em;
+.btn:hover{
+  color:rgba(172, 255, 47, 0.658);
+  background-color: transparent;
+  border: solid 2px rgba(172, 255, 47, 0.658);
+  cursor: pointer;
 }
-
-.read-the-docs {
-  color: #888;
+ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  background: #92929211;;
+  border-radius: 5px;
+  padding: 10px;
+}
+.icons{
+ font-size: 12px;
 }
