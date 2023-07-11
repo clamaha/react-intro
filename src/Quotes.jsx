@@ -1,7 +1,7 @@
 import './App.css';
 import { useState, useEffect } from 'react';
 
-function Quotes() {
+export default function Quotes() {
   const [quote, setQuote] = useState('');
 
   useEffect(() => {
@@ -19,11 +19,10 @@ function Quotes() {
 
   return (
     <div className='allQuotes'>
-      <h4>Daily quote:</h4>
+      <i className="fa-solid fa-quote-left"></i>
       <p>{quote ? quote.text : 'Loading...'}</p>
       <p className='author'>{quote ? `- ${quote.author || 'Unknown'}` : ''}</p>
+      <i className="fa-solid fa-quote-right"></i>
     </div>
   );
 }
-
-export default Quotes;

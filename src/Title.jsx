@@ -1,7 +1,7 @@
 import './App.css'
-function Title() {
+
+export default function Title() {
     return (
-<h1>to-do list</h1>
+        <h1>to-do list</h1>
     )
 }
-export default Title;
