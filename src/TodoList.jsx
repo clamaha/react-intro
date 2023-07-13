@@ -17,7 +17,7 @@ const myState = useState(initialTodos);
         <span style={{ textDecoration: task.completed ? 'line-through' : 'none' }}>
           {task.text}
         </span>
-         <i onClick={() => deletebtn(task)}className="icons fa-solid fa-xmark"></i>
+         <i className="icons fa-solid fa-xmark" onClick={() => deletebtn(task)}></i>
       </li>
     ))}
   </ul>
